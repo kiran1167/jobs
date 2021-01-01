@@ -1,10 +1,3 @@
 Rails.application.routes.draw do
-  root 'jobs#new'
-
-  resources :jobs do
-  	collection do
-  		get :filter
-  	end
-  end
-
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
