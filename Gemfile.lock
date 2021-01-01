@@ -84,7 +84,7 @@ GEM
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.1)
       activesupport (>= 5.0.0)
-    listen (3.3.3)
+    listen (3.4.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.8.0)
@@ -113,7 +113,6 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rack-timeout (0.6.0)
     rails (6.1.0)
       actioncable (= 6.1.0)
       actionmailbox (= 6.1.0)
@@ -207,9 +206,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
-  rack-timeout
   rails (~> 6.1.0)
-  rake
   sass-rails (>= 6)
   selenium-webdriver
   spring

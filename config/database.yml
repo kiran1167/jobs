@@ -13,13 +13,14 @@ development:
 
 production:
   <<: *default
-  database: <%= ENV['PRODUCTION_DATABASE']%>
-  port: 5432
-  username: <%= ENV['PRODUCTION_USERNAME']%>
-  password: <%= ENV['PRODUCTION_PASSWORD']%>
-  host: <%= ENV['PRODUCTION_HOST']%>
-  pool: 5
-  timeout: 15000
+  url: <%= ENV['PRODUCTION_DATABASE_URL']%>
+  # database: <%= ENV['PRODUCTION_DATABASE']%>
+  # port: 5432
+  # username: <%= ENV['PRODUCTION_USERNAME']%>
+  # password: <%= ENV['PRODUCTION_PASSWORD']%>
+  # host: <%= ENV['PRODUCTION_HOST']%>
+  # pool: 5
+  # timeout: 15000
 
 test:
   <<: *default
